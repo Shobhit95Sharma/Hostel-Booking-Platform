@@ -7,7 +7,8 @@
 	
 		<?php
 			session_start();
-			echo "<h2>Welcome " . $_SESSION["username"] . '</h2>';
+			if($_SESSION["username"]!=null)
+				echo "<h2>Welcome " . $_SESSION["username"] . '</h2>';
 
 			$url = 'data.json'; // path to your JSON file
 			$data = file_get_contents($url); // put the contents of the file into a variable

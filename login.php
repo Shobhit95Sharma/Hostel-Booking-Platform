@@ -21,8 +21,8 @@
 				<input type="submit" class="btn btn-default" value="Login">
 		</div>
 		</form>
-		<form action="regCheck.php" method="get">
-			<input type="submit"  class ="btn btn-warning" value="Register">
+		<form action="reg.php" method="get">
+			<input type="submit"  class ="btn btn-warning" value="Continue">
 		</form>
 	</body>
 </html>
